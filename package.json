@@ -1,0 +1,15 @@
+{
+  "name": "leavingbot",
+  "version": "0.1.0",
+  "description": "Bot that sends a discord message whenever someone leaves a server",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.27.0",
+    "dotenv": "^18.0.8"
+  }
+}
